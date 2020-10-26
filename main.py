@@ -1,13 +1,9 @@
 import sys
-import pymysql
-import yfinance as yf
-import pandas as pd
-import logging
-
 import pandas as pd
 from pandas.io import sql
+import yfinance as yf
 from sqlalchemy import create_engine
-
+import logging
 
 LOGGER = logging.getLogger()
 LOGGER.setLevel(logging.INFO)
